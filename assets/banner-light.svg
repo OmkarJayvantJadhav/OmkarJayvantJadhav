@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#eef4fb"/>
+    </linearGradient>
+    <linearGradient id="bar" x1="0" y1="1" x2="0" y2="0">
+      <stop offset="0" stop-color="#2563eb"/><stop offset="1" stop-color="#0d9488"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#2563eb"/><stop offset="1" stop-color="#0d9488"/>
+    </linearGradient>
+    <style>
+      .f { font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif; }
+      .m { font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace; }
+      .line { stroke-dasharray: 900; stroke-dashoffset: 900; animation: draw 2.2s ease-out 0.9s forwards; }
+      .fade { opacity: 0; animation: fade 1s ease-out forwards; }
+      .d1 { animation-delay: .1s; } .d2 { animation-delay: .35s; } .d3 { animation-delay: .6s; } .d4 { animation-delay: .85s; }
+      .caret { animation: blink 1s step-end infinite; }
+      @keyframes draw { to { stroke-dashoffset: 0; } }
+      @keyframes fade { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: none; } }
+      @keyframes blink { 50% { opacity: 0; } }
+    </style>
+  </defs>
+  <rect width="1200" height="300" rx="18" fill="url(#bg)"/>
+  <line x1="740" x2="1140" y1="88" y2="88" stroke="#dfe7f1" stroke-width="1"/><line x1="740" x2="1140" y1="138" y2="138" stroke="#dfe7f1" stroke-width="1"/><line x1="740" x2="1140" y1="188" y2="188" stroke="#dfe7f1" stroke-width="1"/><line x1="740" x2="1140" y1="238" y2="238" stroke="#dfe7f1" stroke-width="1"/>
+  <rect x="760" y="200" width="22" height="38" rx="4" fill="url(#bar)" opacity="0.9"><animate attributeName="height" from="0" to="38" dur="0.9s" begin="0.00s" fill="freeze"/><animate attributeName="y" from="238" to="200" dur="0.9s" begin="0.00s" fill="freeze"/></rect><rect x="796" y="176" width="22" height="62" rx="4" fill="url(#bar)" opacity="0.9"><animate attributeName="height" from="0" to="62" dur="0.9s" begin="0.08s" fill="freeze"/><animate attributeName="y" from="238" to="176" dur="0.9s" begin="0.08s" fill="freeze"/></rect><rect x="832" y="190" width="22" height="48" rx="4" fill="url(#bar)" opacity="0.9"><animate attributeName="height" from="0" to="48" dur="0.9s" begin="0.16s" fill="freeze"/><animate attributeName="y" from="238" to="190" dur="0.9s" begin="0.16s" fill="freeze"/></rect><rect x="868" y="158" width="22" height="80" rx="4" fill="url(#bar)" opacity="0.9"><animate attributeName="height" from="0" to="80" dur="0.9s" begin="0.24s" fill="freeze"/><animate attributeName="y" from="238" to="158" dur="0.9s" begin="0.24s" fill="freeze"/></rect><rect x="904" y="172" width="22" height="66" rx="4" fill="url(#bar)" opacity="0.9"><animate attributeName="height" from="0" to="66" dur="0.9s" begin="0.32s" fill="freeze"/><animate attributeName="y" from="238" to="172" dur="0.9s" begin="0.32s" fill="freeze"/></rect><rect x="940" y="134" width="22" height="104" rx="4" fill="url(#bar)" opacity="0.9"><animate attributeName="height" from="0" to="104" dur="0.9s" begin="0.40s" fill="freeze"/><animate attributeName="y" from="238" to="134" dur="0.9s" begin="0.40s" fill="freeze"/></rect><rect x="976" y="148" width="22" height="90" rx="4" fill="url(#bar)" opacity="0.9"><animate attributeName="height" from="0" to="90" dur="0.9s" begin="0.48s" fill="freeze"/><animate attributeName="y" from="238" to="148" dur="0.9s" begin="0.48s" fill="freeze"/></rect><rect x="1012" y="110" width="22" height="128" rx="4" fill="url(#bar)" opacity="0.9"><animate attributeName="height" from="0" to="128" dur="0.9s" begin="0.56s" fill="freeze"/><animate attributeName="y" from="238" to="110" dur="0.9s" begin="0.56s" fill="freeze"/></rect><rect x="1048" y="126" width="22" height="112" rx="4" fill="url(#bar)" opacity="0.9"><animate attributeName="height" from="0" to="112" dur="0.9s" begin="0.64s" fill="freeze"/><animate attributeName="y" from="238" to="126" dur="0.9s" begin="0.64s" fill="freeze"/></rect><rect x="1084" y="88" width="22" height="150" rx="4" fill="url(#bar)" opacity="0.9"><animate attributeName="height" from="0" to="150" dur="0.9s" begin="0.72s" fill="freeze"/><animate attributeName="y" from="238" to="88" dur="0.9s" begin="0.72s" fill="freeze"/></rect>
+  <polyline class="line" points="771,182 807,158 843,172 879,140 915,154 951,116 987,130 1023,92 1059,108 1095,70" fill="none" stroke="#d97706" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <g class="fade d4"><circle cx="771" cy="182" r="3.5" fill="#d97706"/><circle cx="807" cy="158" r="3.5" fill="#d97706"/><circle cx="843" cy="172" r="3.5" fill="#d97706"/><circle cx="879" cy="140" r="3.5" fill="#d97706"/><circle cx="915" cy="154" r="3.5" fill="#d97706"/><circle cx="951" cy="116" r="3.5" fill="#d97706"/><circle cx="987" cy="130" r="3.5" fill="#d97706"/><circle cx="1023" cy="92" r="3.5" fill="#d97706"/><circle cx="1059" cy="108" r="3.5" fill="#d97706"/><circle cx="1095" cy="70" r="3.5" fill="#d97706"/></g>
+
+  <g class="f">
+    <text class="m fade d1" x="70" y="92" font-size="17" fill="#0f766e" letter-spacing="1">SELECT insight FROM data;<tspan class="caret" fill="#0f766e">▍</tspan></text>
+    <text class="fade d2" x="68" y="152" font-size="52" font-weight="700" fill="#0f172a">Omkar Jadhav</text>
+    <rect class="fade d2" x="70" y="170" width="92" height="4" rx="2" fill="url(#accent)"/>
+    <text class="fade d3" x="70" y="210" font-size="22" font-weight="600" fill="#0f172a">Aspiring Data Analyst</text>
+    <text class="fade d4" x="70" y="244" font-size="16" fill="#5b6475">SQL · Python · Power BI  ·  CSBS @ KIT College of Engineering, Kolhapur</text>
+  </g>
+</svg>
