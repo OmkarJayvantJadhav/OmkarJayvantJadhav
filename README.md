@@ -95,13 +95,6 @@ fun_fact: I built a web app that grades OMR answer sheets automatically 📝
   </tr>
 </table>
 
----
-
-## 📈 GitHub Activity
-
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=OmkarJayvantJadhav&bg_color=0d1117&color=38bdf8&line=6366f1&point=ffffff&area=true&area_color=38bdf8&hide_border=true&radius=8" alt="Contribution graph" width="100%"/>
-</p>
 
 ---
 
