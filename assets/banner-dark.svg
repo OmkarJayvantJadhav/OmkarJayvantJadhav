@@ -28,10 +28,10 @@
   <g class="fade d4"><circle cx="771" cy="182" r="3.5" fill="#f59e0b"/><circle cx="807" cy="158" r="3.5" fill="#f59e0b"/><circle cx="843" cy="172" r="3.5" fill="#f59e0b"/><circle cx="879" cy="140" r="3.5" fill="#f59e0b"/><circle cx="915" cy="154" r="3.5" fill="#f59e0b"/><circle cx="951" cy="116" r="3.5" fill="#f59e0b"/><circle cx="987" cy="130" r="3.5" fill="#f59e0b"/><circle cx="1023" cy="92" r="3.5" fill="#f59e0b"/><circle cx="1059" cy="108" r="3.5" fill="#f59e0b"/><circle cx="1095" cy="70" r="3.5" fill="#f59e0b"/></g>
 
   <g class="f">
-    <text class="m fade d1" x="70" y="92" font-size="17" fill="#7ee0c3" letter-spacing="1">SELECT insight FROM data;<tspan class="caret" fill="#7ee0c3">▍</tspan></text>
+    <text class="m fade d1" x="70" y="92" font-size="17" fill="#7ee0c3" letter-spacing="1">agent.plan() → tools.run() → ship()<tspan class="caret" fill="#7ee0c3">▍</tspan></text>
     <text class="fade d2" x="68" y="152" font-size="52" font-weight="700" fill="#e6edf3">Omkar Jadhav</text>
     <rect class="fade d2" x="70" y="170" width="92" height="4" rx="2" fill="url(#accent)"/>
-    <text class="fade d3" x="70" y="210" font-size="22" font-weight="600" fill="#e6edf3">Aspiring Data Analyst</text>
-    <text class="fade d4" x="70" y="244" font-size="16" fill="#8b98a9">SQL · Python · Power BI  ·  CSBS @ KIT College of Engineering, Kolhapur</text>
+    <text class="fade d3" x="70" y="210" font-size="22" font-weight="600" fill="#e6edf3">Full-Stack &amp; AI Engineer</text>
+    <text class="fade d4" x="70" y="244" font-size="16" fill="#8b98a9">LLM agents · RAG · React + FastAPI  ·  CSBS @ KIT College of Engineering, Kolhapur</text>
   </g>
 </svg>
