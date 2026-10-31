@@ -1,6 +1,10 @@
 <!-- Header -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=190&section=header&text=Omkar%20Jadhav&fontSize=52&fontColor=ffffff&fontAlignY=36&desc=Full-Stack%20%26%20AI%20Engineer&descSize=18&descAlignY=58&animation=fadeIn" alt="Omkar Jadhav, Full-Stack & AI Engineer" width="100%"/>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg"/>
+    <source media="(prefers-color-scheme: light)" srcset="assets/banner-light.svg"/>
+    <img src="assets/banner-dark.svg" alt="Omkar Jadhav, Full-Stack & AI Engineer" width="100%"/>
+  </picture>
 </p>
 
 <p align="center">
@@ -152,9 +156,4 @@ builds_with: [Python, FastAPI, React, PostgreSQL + pgvector, Docker]
 
 <p align="center">
   <i>"First, solve the problem. Then, write the code."</i>
-</p>
-
-<!-- Footer -->
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:2c5364,50:203a43,100:0f2027&height=110&section=footer" width="100%"/>
 </p>
